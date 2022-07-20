@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#light-button {
+  width: 70px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+#circle {
+  padding: 4px;
+  height: 11px;
+  width: 11px;
+  background-color: black;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.darkMode {
+  background-color: #000;
+  color: #fff;
+}
+
+.lightMode {
+  background-color: #fff;
+}
+
+.translate {
+  transform: translateX(50px);
+}
